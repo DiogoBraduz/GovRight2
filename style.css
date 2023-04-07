@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: "Poppins", Open sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+h1,
+h2 {
+  font-size: 6rem;
+}
+
+.flexrow {
+  display: flex;
+}
+
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  width: 87px;
+  height: 2px;
+  background-color: rgb(148, 203, 60);
+}
+
+.hrcolumn {
+  height: 285px;
+  width: 2px;
+  background-color: rgb(148, 203, 60);
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  hr {
+    height: 3px;
+  }
+}
